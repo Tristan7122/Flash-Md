@@ -12,7 +12,7 @@ const conf = {
   ANTIDEMOTE: process.env.ANTIDEMOTE || "on",
   timezone: process.env.TIME_ZONE || "Africa/Johannesburg",
   PRESENCE_DM: process.env.DM_PRESENCE || "recording",
-  PRESENCE_GROUP: process.env.GROUP_PRESENCE || "paused",
+  PRESENCE_GROUP: process.env.GROUP_PRESENCE || "recording",
   MODE: process.env.MODE || "public",
   AV: process.env.AV || "on",
   PREFIXES: process.env.PREFIX ? process.env.PREFIX.split(".").map(p => p.trim()).filter(p => p) : [],
